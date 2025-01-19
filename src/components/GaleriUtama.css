@@ -72,7 +72,7 @@
 .stack-pertama {
     cursor: url('/assets/coursor.cur'), auto;
     position: relative;
-    min-height: 240vh;
+    min-height: 250vh;
     width: 100%;
     overflow: hidden;
 }
@@ -82,7 +82,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 150vh;
+    height: 160vh;
     z-index: 1000;
     color: #19878B;
     border-top-left-radius: 30px;
