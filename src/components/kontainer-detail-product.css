@@ -1,7 +1,5 @@
 .kontainer-product-view {
-    overflow: hidden;
-    background-attachment: fixed;
-    /* memastikan gambar latar belakang tetap */
+   
     cursor: url('/assets/coursor.cur'), auto;
     margin-top: 5vh;
     display: flex;
@@ -15,16 +13,17 @@
     background-color: rgb(25, 135, 139);
     background-image: url('/assets/background-layar.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position:  center;
     background-size: cover;
+    justify-content: center;
     width: 95%;
-    height: 140vh;
+    height: 142vh;
     margin-top: 0;
     transform: scale(1.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
     background-attachment: fixed;
-    /* memastikan gambar latar belakang tetap */
+    align-items: center;
 }
 
 
