@@ -70,9 +70,7 @@
 
 
 .stack-pertama {
-
-  
-
+    cursor: url('/assets/coursor.cur'), auto;
     position: relative;
     min-height: 240vh;
     width: 100%;
