@@ -1,0 +1,336 @@
+[
+    {
+        "id": 4,
+        "nama": "Coconut Cream Cold Brew",
+        "ukuran": [
+            "Protein: 4g",
+            "Kalsium: 150mg",
+            "Vitamin C: 15%"
+        ],
+        "gambar": "coconut-cappucino.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Kesegaran cold brew yang dikombinasikan dengan susu kelapa yang lembut dan aroma vanilla yang manis.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#E0EAD3",
+        "imageBg": "coconut-bakground.png",
+        "kumpulanGambar": [
+            {
+                "file": "almond.png",
+                "nama": "almond"
+            },
+            {
+                "file": "ice-cream-bacckground.png",
+                "nama": "Ice Cream"
+            }
+        ],
+        "topping": [
+            "Toasted Coconut Flakes",
+            "Coconut Cream"
+        ],
+        "resep": {
+            "bahan": [
+                "Cold Brew",
+                "Sirup Vanilla",
+                "Susu Kelapa",
+                "Krim Kelapa",
+                "Kelapa Parut Panggang"
+            ],
+            "langkah": [
+                "Seduh cold brew dan tuangkan ke dalam gelas berisi es batu.",
+                "Tambahkan sirup vanilla dan susu kelapa, lalu aduk rata.",
+                "Tuangkan krim kelapa di atasnya.",
+                "Hiasi dengan taburan kelapa parut panggang."
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "nama": "Vanilla Bliss",
+        "ukuran": [
+            "Protein: 6g",
+            "Kalsium: 250mg",
+            "Vitamin D: 20%"
+        ],
+        "gambar": "vanilla-bliss.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Perpaduan lembut vanilla latte dengan sentuhan caramel yang manis dan creamy.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#f3e5ab",
+        "imageBg": "white-coffe-background.png",
+        "kumpulanGambar": [
+            {
+                "file": "waffer.png",
+                "nama": "Waffer"
+            },
+            {
+                "file": "chochochip-topping.png",
+                "nama": "Choco Chips"
+            }
+        ],
+        "topping": [
+            "Whipped Cream",
+            "Caramel Drizzle",
+            "Vanilla Powder"
+        ],
+        "resep": {
+            "bahan": [
+                "Espresso",
+                "Susu UHT",
+                "Sirup Vanilla",
+                "Krim Kocok",
+                "Saus Caramel"
+            ],
+            "langkah": [
+                "Seduh espresso dan tuangkan ke dalam gelas.",
+                "Tambahkan susu UHT yang sudah dikukus.",
+                "Campurkan sirup vanilla untuk rasa manis.",
+                "Tambahkan krim kocok di atasnya.",
+                "Hiasi dengan saus caramel dan taburan vanilla powder."
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "nama": "Matcha Green Tea Latte",
+        "ukuran": [
+            "Protein: 5g",
+            "Kalsium: 200mg",
+            "Vitamin A: 10%"
+        ],
+        "gambar": "vanilla-macchiato-greentea.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Nikmati kesegaran Matcha Green Tea Latte dengan rasa khas matcha yang dipadukan dengan susu segar dan topping krim kocok.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#C5E1A5",
+        "imageBg": "greentea-background.png",
+        "kumpulanGambar": [
+            {
+                "file": "waffer.png",
+                "nama": "Waffer"
+            },
+            {
+                "file": "ice-cream-bacckground.png",
+                "nama": "Ice Cream"
+            }
+        ],
+        "topping": [
+            "Whipped Cream",
+            "Matcha Powder",
+            "Honey Drizzle"
+        ],
+        "resep": {
+            "bahan": [
+                "Bubuk Matcha Premium",
+                "Susu Segar",
+                "Sirup Vanila",
+                "Krim Kocok",
+                "Madu"
+            ],
+            "langkah": [
+                "Campurkan bubuk matcha dengan sedikit air hangat hingga larut.",
+                "Tambahkan susu segar dan aduk rata.",
+                "Tuangkan minuman ke dalam gelas berisi es batu.",
+                "Tambahkan krim kocok di atasnya.",
+                "Hiasi dengan taburan bubuk matcha dan madu di atasnya."
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "nama": "Caramel Mocha Coffee",
+        "ukuran": [
+            "Protein: 7g",
+            "Kalsium: 180mg",
+            "Vitamin E: 12%"
+        ],
+        "gambar": "caramel-macchiato-greentea-caramel.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Nikmati paduan sempurna antara espresso pekat, saus karamel manis, sirup cokelat, dan krim kocok lembut, dilengkapi taburan chocolate shavings.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#C8A27E",
+        "imageBg": "blacck-coffe-background.png",
+        "kumpulanGambar": [
+            {
+                "file": "waffer.png",
+                "nama": "Waffer"
+            },
+            {
+                "file": "topping-strawberry.png",
+                "nama": "Strawberry"
+            },
+            {
+                "file": "coklat-batang.png",
+                "nama": "Chocolate Shavings"
+            }
+        ],
+        "topping": [
+            "Whipped Cream",
+            "Caramel Drizzle",
+            "Chocolate Shavings"
+        ],
+        "resep": {
+            "bahan": [
+                "Double Shot Espresso",
+                "Saus Karamel",
+                "Sirup Cokelat",
+                "Krim Kocok",
+                "Chocolate Shavings"
+            ],
+            "langkah": [
+                "Siapkan double shot espresso segar.",
+                "Tambahkan saus karamel dan sirup cokelat, aduk rata.",
+                "Tuangkan ke dalam gelas berisi es batu.",
+                "Tambahkan krim kocok di atasnya.",
+                "Hiasi dengan caramel drizzle dan taburan chocolate shavings."
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "nama": "Cappuccino Caramel Mint",
+        "ukuran": [
+            "Protein: 6g",
+            "Kalsium: 180mg",
+            "Vitamin B: 5%"
+        ],
+        "gambar": "caramel-coffe-cappucino.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Nikmati sensasi cappuccino yang kaya dengan saus karamel manis, krim kocok, taburan caramel drizzle, dan kesegaran daun mint.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#A1C5A6",
+        "imageBg": "daun-mint-backgrond.png",
+        "kumpulanGambar": [
+            {
+                "file": "ice-cream-bacckground.png",
+                "nama": "Ice Cream"
+            },
+            {
+                "file": "avocado-bacckground.png",
+                "nama": "Avocado"
+            },
+            {
+                "file": "waffer.png",
+                "nama": "Waffer"
+            }
+        ],
+        "topping": [
+            "Whipped Cream",
+            "Caramel Drizzle",
+            "Mint Leaf"
+        ],
+        "resep": {
+            "bahan": [
+                "Espresso",
+                "Saus Karamel",
+                "Krim Kocok",
+                "Caramel Drizzle",
+                "Daun Mint Segar"
+            ],
+            "langkah": [
+                "Seduh espresso dan tuangkan ke dalam gelas.",
+                "Tambahkan saus karamel dan aduk rata.",
+                "Tambahkan krim kocok di atasnya.",
+                "Hiasi dengan caramel drizzle dan daun mint segar."
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "nama": "Strawberry Latte",
+        "ukuran": [
+            "Protein: 5g",
+            "Kalsium: 200mg",
+            "Vitamin C: 25%"
+        ],
+        "gambar": "strawberry-latte.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Perpaduan espresso, saus stroberi manis, dan krim kocok lembut.",
+        "deskripsiKomposisi": [
+            {
+                "file": "hangat.png",
+                "nama": "hangat"
+            },
+            {
+                "file": "dingin.png",
+                "nama": "Dingin"
+            }
+        ],
+        "warnaBg": "#F2B2D6",
+        "imageBg": "strawberry-background.png",
+        "kumpulanGambar": [
+            {
+                "file": "avocado-bacckground.png",
+                "nama": "Avocado"
+            },
+            {
+                "file": "waffer.png",
+                "nama": "Waffer"
+            }
+        ],
+        "topping": [
+            "Whipped Cream",
+            "Strawberry Drizzle",
+            "Chopped Strawberry"
+        ],
+        "resep": {
+            "bahan": [
+                "Espresso",
+                "Saus Stroberi",
+                "Susu Segar",
+                "Krim Kocok",
+                "Strawberry Chopped"
+            ],
+            "langkah": [
+                "Seduh espresso dan tuangkan ke dalam gelas.",
+                "Tambahkan saus stroberi dan susu segar.",
+                "Aduk rata dan tambahkan krim kocok di atasnya.",
+                "Hiasi dengan saus stroberi dan irisan strawberry."
+            ]
+        }
+    }
+]

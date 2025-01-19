@@ -1,0 +1,263 @@
+.kontainer-product-view {
+    background-attachment: fixed; /* memastikan gambar latar belakang tetap */
+    cursor: url('coursor.cur'), auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.image-background-logo {
+    
+    background-color: rgb(25, 135, 139);
+    background-image: url('background-layar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 95%;
+    height: 130vh;
+    margin-top: 0;
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-attachment: fixed; /* memastikan gambar latar belakang tetap */
+}
+
+
+
+.detailnya {
+    color: rgb(253, 253, 253);
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    animation: slideUp 6.6s ease-out;
+}
+
+
+
+.resep {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+
+.resep-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6.5rem;
+    color: rgb(255, 255, 255);
+    margin: 50px 0;
+    animation: slideIn 0.8s ease-out;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.resep-section h5 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.resep-section h5:hover {
+    color: #ccf70c;
+}
+
+.resep-section ul,
+.resep-section ol {
+    text-align: left;
+    padding-left: 25px;
+    margin: 10px 0;
+    color: #e6e5e5;
+    font-size: 1rem;
+    line-height: 1.8;
+    list-style: disc;
+}
+
+.resep-section li {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.resep-section li:nth-child(n) {
+    animation-delay: calc(n * 0.1s);
+}
+
+
+.video-section {
+    margin: 30px 0;
+    text-align: center;
+    animation: scaleIn 2.8s ease-out;
+}
+
+.video-section h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.video-section h4:hover {
+    color: #ccf70c;
+}
+
+.product-video {
+    animation: slide-in-right 4.5s ease forwards;
+    cursor: url('coursor.cur'), auto;
+    background-color: rgb(25, 135, 139);
+    width: 66vh;
+    max-width: 100vh;
+    height: 310px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-video:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .kontainer-product-view {
+        margin-top: 4vh;
+    }
+
+    .detailnya {
+        padding: 18px;
+    }
+
+    .komposisi-section h4,
+    .resep-section h5 {
+        font-size: 1.4rem;
+    }
+
+    .video-section h4 {
+        font-size: 1.3rem;
+    }
+
+    .product-video {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    .detailnya {
+        padding: 15px;
+    }
+
+    .resep-section {
+        flex-direction: column;
+    }
+
+    .product-video {
+        max-width: 80%;
+        height: 250px;
+    }
+
+    .kontainer-product-view {
+        margin-top: 3vh;
+    }
+
+    .komposisi-section h4,
+    .resep-section h5 {
+        font-size: 1.3rem;
+    }
+
+    .video-section h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .detailnya {
+        padding: 12px;
+    }
+
+    .kontainer-product-view {
+        margin-top: 2vh;
+    }
+
+    .komposisi-section h4,
+    .resep-section h5 {
+        font-size: 1.2rem;
+    }
+
+    .product-video {
+        height: 200px;
+    }
+
+    .video-section h4 {
+        font-size: 1.1rem;
+    }
+}
