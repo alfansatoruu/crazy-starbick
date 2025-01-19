@@ -71,7 +71,7 @@
 
 .stack-pertama {
 
-    cursor: url('/assets/coursor.cur'), auto;
+  
 
     position: relative;
     min-height: 240vh;
@@ -119,7 +119,7 @@
 .background-container-pertama,
 .background-container-kedua {
 
-    cursor: url('/assets/coursor.cur'), auto;
+  
 
     position: absolute;
     background-size: 100%;
@@ -202,7 +202,7 @@
 
 .product-display {
     animation: slide-down 4.5s ease forwards;
-    cursor: url('/assets/coursor.cur'), auto;
+  
 
     margin-left: 24vh;
     position: relative;
@@ -214,7 +214,7 @@
 
 .product-image {
     height: 500px;
-    cursor: url('/assets/coursor.cur'), auto;
+  
 
     object-fit: contain;
     transition: transform 0.5s ease, opacity 0.5s ease;

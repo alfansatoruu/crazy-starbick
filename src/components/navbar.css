@@ -30,7 +30,7 @@
     }
 }
 .navbar {
-    cursor: url('/assets/coursor.cur'), auto;
+
     padding: 1rem 2rem;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -43,7 +43,7 @@
 
 
 .navbar-container {
-    cursor: url('/assets/coursor.cur'), auto;
+
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -67,7 +67,7 @@
 
 .search-container {
     animation: slide-in-right 2.8s ease forwards;
-    cursor: url('/assets/coursor.cur'), auto;
+
     position: relative;
     width: 300px;
     margin-left: auto;

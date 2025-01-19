@@ -1,6 +1,7 @@
 .kontainer-product-view {
-    background-attachment: fixed; /* memastikan gambar latar belakang tetap */
-  cursor: url('/assets/coursor.cur'), auto;
+    background-attachment: fixed;
+    /* memastikan gambar latar belakang tetap */
+
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
@@ -9,9 +10,9 @@
 }
 
 .image-background-logo {
-    
+
     background-color: rgb(25, 135, 139);
-    background-image: url('/assets/background-layar.png');
+    /* background-image: url('/assets/background-layar.png'); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -21,7 +22,8 @@
     transform: scale(1.1);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    background-attachment: fixed; /* memastikan gambar latar belakang tetap */
+    background-attachment: fixed;
+    /* memastikan gambar latar belakang tetap */
 }
 
 
@@ -111,7 +113,7 @@
 
 .product-video {
     animation: slide-in-right 4.5s ease forwards;
-  cursor: url('/assets/coursor.cur'), auto;
+
     background-color: rgb(25, 135, 139);
     width: 66vh;
     max-width: 100vh;
