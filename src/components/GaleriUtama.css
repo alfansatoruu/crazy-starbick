@@ -199,10 +199,9 @@
 
 
 .product-display {
+    top: 8vh;
     animation: slide-down 4.5s ease forwards;
-  
-
-    margin-left: 27vh;
+    left: 15.5vh;
     position: relative;
     display: flex;
     flex-direction: column;

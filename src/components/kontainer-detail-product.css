@@ -1,30 +1,27 @@
 .kontainer-product-view {
-   
-    cursor: url('/assets/coursor.cur'), auto;
-    margin-top: 5vh;
+width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation: fadeInUp 0.8s ease-out;
+    justify-content: center; /* Rata tengah secara vertikal */
+    height: 150vh; /* Pastikan elemen ini memenuhi tinggi viewport */
+    text-align: center; /* Opsional, untuk teks */
 }
 
 .image-background-logo {
-
-    background-color: rgb(25, 135, 139);
     background-image: url('/assets/background-layar.png');
     background-repeat: no-repeat;
-    background-position:  center;
+    background-position: center;
     background-size: cover;
+    display: flex;
     justify-content: center;
-    width: 95%;
-    height: 142vh;
-    margin-top: 0;
-    transform: scale(1.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-    background-attachment: fixed;
     align-items: center;
+    width: 100%; /* Pastikan elemen ini penuh */
+    height: 100%; /* Pastikan elemen ini penuh */
+    margin: 0 auto; /* Tambahkan jika perlu memastikan horizontal alignment */
+    padding: 0; /* Hilangkan padding default */
 }
+
 
 
 
@@ -41,6 +38,19 @@
 }
 
 
+.kontainer-detail-product {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 162vh;
+    z-index: 1000;
+    color: #19878B;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    top: 105vh;
+    overflow: auto;
+}
 
 .resep {
     animation: fadeInUp 0.8s ease-out;

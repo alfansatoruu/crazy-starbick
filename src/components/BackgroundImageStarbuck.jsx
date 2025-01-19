@@ -4,7 +4,7 @@ import './BackgroundImageStarbuck.css';
 const BackgroundImageStarbuck = ({ children }) => {
     return (
         <div className="background-image-starbuck">
-            <div className="half-background">
+            <div className="half-zbackground">
                 <div className="background-image"></div>
                 <div className="background-overlay"></div>
             </div>
