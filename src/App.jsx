@@ -1,30 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GaleriUtama from './components/GaleriUtama';
-import Loading from './components/Loading_screen'; // Impor komponen Loading
+import Loading from './components/Loading_screen';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true); // State untuk loading
+  const [isLoading, setIsLoading] = useState(true);
 
-  // Efek untuk mengatur durasi loading
+
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsLoading(false); // Hentikan loading setelah 3 detik
+      setIsLoading(false);
     }, 5000);
 
-    return () => clearTimeout(timer); // Membersihkan timer
+    return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
       {isLoading ? (
-        <Loading /> // Tampilkan layar loading
+        <Loading />
       ) : (
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<GaleriUtama />} />
-          </Routes>
-        </BrowserRouter>
+        <BrowserRouter basename="/crazy-starbick">
+        <Routes>
+          <Route path="/" element={<GaleriUtama />} />
+        </Routes>
+      </BrowserRouter>
+      
       )}
     </>
   );
