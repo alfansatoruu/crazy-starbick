@@ -332,5 +332,108 @@
                 "Hiasi dengan saus stroberi dan irisan strawberry."
             ]
         }
+    },
+
+
+    {
+        "id": 7,
+        "nama": "Hamburger",
+        "ukuran": [
+            "Protein: 20g",
+            "Kalori: 500kcal",
+            "Lemak: 25g"
+        ],
+        "gambar": "hamburger.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Perpaduan espresso, saus stroberi manis, dan krim kocok lembut.",
+        "deskripsiKomposisi": [],
+        "warnaBg": "#FFD966",
+        "imageBg": "tomato.png",
+        "kumpulanGambar": [
+            {
+                "file": "tomat.png",
+                "nama": "Tomato"
+            },
+            {
+                "file": "koll.png",
+                "nama": "Lettuce"
+            }
+        ],
+        "topping": [
+            "Cheddar Cheese",
+            "Pickles",
+            "Onion Rings"
+        ],
+        "resep": {
+            "bahan": [
+                "Roti Burger",
+                "Daging Sapi",
+                "Selada",
+                "Tomat",
+                "Keju Cheddar",
+                "Saus BBQ"
+            ],
+            "langkah": [
+                "Panggang daging sapi hingga matang.",
+                "Panaskan roti burger dengan mentega.",
+                "Letakkan daging sapi di roti, tambahkan selada, tomat, keju cheddar, dan saus BBQ.",
+                "Tutup dengan roti atas dan sajikan."
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "nama": "Kebab",
+        "ukuran": [
+            "Protein: 20g",
+            "Kalori: 500kcal",
+            "Lemak: 25g"
+        ],
+        "gambar": "kebab.png",
+        "video": "videoplayback.mp4",
+        "deskripsi": "Kebab adalah hidangan daging panggang khas Timur Tengah yang dipadukan dengan sayuran segar dan bumbu lezat.",
+        "deskripsiKomposisi": [],
+        "warnaBg": "#FFD966",
+        "imageBg": "daging.png",
+        "kumpulanGambar": [
+            {
+                "file": "tomat.png",
+                "nama": "Tomato"
+            },
+            {
+                "file": "koll.png",
+                "nama": "Lettuce"
+            }
+        ],
+        "topping": [
+            "Saus Yogurt",
+            "Bawang Bombai Iris",
+            "Cabai Bubuk",
+            "Timun Acar",
+            "Parsley Cincang"
+        ],
+        "resep": {
+            "bahan": [
+                "Roti Tortilla",
+                "Daging Sapi Giling",
+                "Selada",
+                "Tomat",
+                "Bawang Bombai",
+                "Saus Yogurt",
+                "Cabai Bubuk",
+                "Timun Acar",
+                "Parsley Cincang"
+            ],
+            "langkah": [
+                "Marinasi daging sapi giling dengan rempah seperti bawang putih, jinten, ketumbar, paprika, garam, dan lada hitam. Diamkan selama 30 menit.",
+                "Tumis daging sapi yang sudah dimarinasi hingga matang dan aromanya harum.",
+                "Panaskan roti tortilla di atas wajan hingga sedikit kecokelatan.",
+                "Susun isi kebab dengan meletakkan daging sapi, selada, tomat, bawang bombai iris, timun acar, dan parsley cincang di atas roti tortilla.",
+                "Tambahkan saus yogurt dan taburkan cabai bubuk di atas isian.",
+                "Gulung tortilla dengan rapi, pastikan isian tidak keluar.",
+                "Panaskan kembali kebab yang sudah digulung selama beberapa detik untuk memberikan tekstur renyah pada roti.",
+                "Sajikan kebab hangat dengan tambahan saus sesuai selera."
+            ]
+        }
     }
 ]

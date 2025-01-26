@@ -1,39 +1,37 @@
 .kontainer-product-view {
-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Rata tengah secara vertikal */
-    height: 150vh; /* Pastikan elemen ini memenuhi tinggi viewport */
-    text-align: center; /* Opsional, untuk teks */
+    justify-content: center;
+    height: 150vh;
+    text-align: center;
 }
 
 .image-background-logo {
-    background-image: url('/assets/background-layar.png');
+    background-image: url('/assets/12345.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
+    background-color: #0d633f;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Pastikan elemen ini penuh */
-    height: 100%; /* Pastikan elemen ini penuh */
-    margin: 0 auto; /* Tambahkan jika perlu memastikan horizontal alignment */
-    padding: 0; /* Hilangkan padding default */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 
-
-
 .detailnya {
-    color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
     text-align: center;
     max-width: 100%;
     width: 100%;
     padding: 20px;
     overflow: hidden;
     border-radius: 10px;
-    backdrop-filter: blur(5px);
     animation: slideUp 6.6s ease-out;
 }
 
@@ -45,7 +43,7 @@ width: 100%;
     width: 100%;
     height: 162vh;
     z-index: 1000;
-    color: #19878B;
+    color: #0d633f;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     top: 105vh;
@@ -63,17 +61,17 @@ width: 100%;
     justify-content: space-between;
     align-items: flex-start;
     gap: 6.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 50px 0;
     animation: slideIn 0.8s ease-out;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     padding: 20px;
 }
 
 .resep-section h5 {
     font-size: 1.3rem;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 10px;
     transition: color 0.3s ease;
 }
@@ -87,7 +85,7 @@ width: 100%;
     text-align: left;
     padding-left: 25px;
     margin: 10px 0;
-    color: #e6e5e5;
+    color: #000000;
     font-size: 1rem;
     line-height: 1.8;
     list-style: disc;
@@ -111,7 +109,7 @@ width: 100%;
 
 .video-section h4 {
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 15px;
     text-transform: uppercase;
     transition: color 0.3s ease;

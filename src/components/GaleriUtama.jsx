@@ -234,7 +234,7 @@ const Beranda = () => {
                             </div>
 
                             <div className="komposisi-section slide-up">
-                                <h4>Nikmati</h4>
+                          
                                 <div className="timeline-deskripsi">
                                     {deskripsiKomposisi.map((gambar, index) => (
                                         <div className="topping-content-deskripsi" key={gambar.id || index}>
